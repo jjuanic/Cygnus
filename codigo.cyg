@@ -1,0 +1,13 @@
+program distanciaEuclidiana 
+    var
+    vector = array[1.2];
+    punto = real;
+    resultado = real;
+    sum = real;
+    i = real;
+    body {
+        vector[1.2] = 1;
+        sysOut(vector[2]);
+    } 
+
+ 

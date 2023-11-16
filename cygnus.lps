@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <ProjectSession>
+    <PathDelim Value="\"/>
+    <Version Value="12"/>
+    <BuildModes Active="Default"/>
+    <Units>
+      <Unit>
+        <Filename Value="cygnus.lpr"/>
+        <IsPartOfProject Value="True"/>
+        <IsVisibleTab Value="True"/>
+        <CursorPos X="48" Y="30"/>
+        <UsageCount Value="34"/>
+        <Loaded Value="True"/>
+      </Unit>
+      <Unit>
+        <Filename Value="archivos.pas"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="4"/>
+        <CursorPos X="79" Y="20"/>
+        <UsageCount Value="34"/>
+        <Loaded Value="True"/>
+      </Unit>
+      <Unit>
+        <Filename Value="clasificadores.pas"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="2"/>
+        <TopLine Value="192"/>
+        <CursorPos X="27" Y="217"/>
+        <UsageCount Value="34"/>
+        <Loaded Value="True"/>
+      </Unit>
+      <Unit>
+        <Filename Value="tipos.pas"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="6"/>
+        <CursorPos X="96" Y="12"/>
+        <UsageCount Value="34"/>
+        <Loaded Value="True"/>
+      </Unit>
+      <Unit>
+        <Filename Value="analizador_sintactico.pas"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="3"/>
+        <CursorPos X="16" Y="6"/>
+        <UsageCount Value="34"/>
+        <Loaded Value="True"/>
+      </Unit>
+      <Unit>
+        <Filename Value="analizador_lexico.pas"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="5"/>
+        <TopLine Value="77"/>
+        <CursorPos X="82" Y="120"/>
+        <UsageCount Value="34"/>
+        <Loaded Value="True"/>
+      </Unit>
+      <Unit>
+        <Filename Value="AnalizadorLexico\analizadorlexico.lpr"/>
+        <UnitName Value="cygnus"/>
+        <EditorIndex Value="-1"/>
+        <UsageCount Value="9"/>
+      </Unit>
+      <Unit>
+        <Filename Value="AnalizadorLexico\archivos.pas"/>
+        <EditorIndex Value="-1"/>
+        <UsageCount Value="9"/>
+      </Unit>
+      <Unit>
+        <Filename Value="AnalizadorLexico\clasificadores.pas"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="224"/>
+        <CursorPos X="5" Y="255"/>
+        <UsageCount Value="9"/>
+      </Unit>
+      <Unit>
+        <Filename Value="AnalizadorLexico\tipos.pas"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="133"/>
+        <CursorPos Y="164"/>
+        <UsageCount Value="9"/>
+      </Unit>
+      <Unit>
+        <Filename Value="AnalizadorLexico\analizadorsintactico.pas"/>
+        <UnitName Value="analizador_sintactico"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="12"/>
+        <CursorPos Y="43"/>
+        <UsageCount Value="9"/>
+      </Unit>
+      <Unit>
+        <Filename Value="AnalizadorLexico\analizador_lexico.pas"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="103"/>
+        <CursorPos Y="134"/>
+        <UsageCount Value="9"/>
+      </Unit>
+      <Unit>
+        <Filename Value="codigo.txt"/>
+        <EditorIndex Value="7"/>
+        <CursorPos X="11" Y="2"/>
+        <UsageCount Value="15"/>
+        <Loaded Value="True"/>
+        <DefaultSyntaxHighlighter Value="None"/>
+      </Unit>
+      <Unit>
+        <Filename Value="..\..\..\..\AppData\Local\Temp\Temp1_final_2.zip\final\analizador_lexico.pas"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="295"/>
+        <CursorPos Y="312"/>
+        <UsageCount Value="10"/>
+      </Unit>
+      <Unit>
+        <Filename Value="cygnus.pas"/>
+        <EditorIndex Value="1"/>
+        <UsageCount Value="10"/>
+        <Loaded Value="True"/>
+      </Unit>
+    </Units>
+    <JumpHistory HistoryIndex="29">
+      <Position>
+        <Filename Value="analizador_sintactico.pas"/>
+        <Caret Line="1060" TopLine="1041"/>
+      </Position>
+      <Position>
+        <Filename Value="analizador_sintactico.pas"/>
+        <Caret Line="1061" TopLine="1041"/>
+      </Position>
+      <Position>
+        <Filename Value="analizador_sintactico.pas"/>
+        <Caret Line="1064" TopLine="1044"/>
+      </Position>
+      <Position>
+        <Filename Value="analizador_sintactico.pas"/>
+        <Caret Line="1065" TopLine="1045"/>
+      </Position>
+      <Position>
+        <Filename Value="analizador_sintactico.pas"/>
+        <Caret Line="1066" TopLine="1046"/>
+      </Position>
+      <Position>
+        <Filename Value="analizador_sintactico.pas"/>
+        <Caret Line="1069" TopLine="1049"/>
+      </Position>
+      <Position>
+        <Filename Value="analizador_sintactico.pas"/>
+        <Caret Line="42" Column="38" TopLine="26"/>
+      </Position>
+      <Position>
+        <Filename Value="analizador_sintactico.pas"/>
+        <Caret Line="1131" Column="9" TopLine="1115"/>
+      </Position>
+      <Position>
+        <Filename Value="cygnus.lpr"/>
+        <Caret Line="32" Column="9" TopLine="2"/>
+      </Position>
+      <Position>
+        <Filename Value="cygnus.lpr"/>
+        <Caret Line="14" Column="17"/>
+      </Position>
+      <Position>
+        <Filename Value="analizador_lexico.pas"/>
+        <Caret Line="109" TopLine="96"/>
+      </Position>
+      <Position>
+        <Filename Value="clasificadores.pas"/>
+        <Caret Line="148" Column="21" TopLine="128"/>
+      </Position>
+      <Position>
+        <Filename Value="cygnus.lpr"/>
+        <Caret Line="17" Column="35"/>
+      </Position>
+      <Position>
+        <Filename Value="clasificadores.pas"/>
+        <Caret Line="139" Column="17" TopLine="131"/>
+      </Position>
+      <Position>
+        <Filename Value="cygnus.lpr"/>
+        <Caret Line="17" Column="22" TopLine="2"/>
+      </Position>
+      <Position>
+        <Filename Value="clasificadores.pas"/>
+        <Caret Line="144" Column="18" TopLine="135"/>
+      </Position>
+      <Position>
+        <Filename Value="clasificadores.pas"/>
+        <Caret Line="143" Column="34" TopLine="129"/>
+      </Position>
+      <Position>
+        <Filename Value="clasificadores.pas"/>
+        <Caret Line="6" Column="27"/>
+      </Position>
+      <Position>
+        <Filename Value="clasificadores.pas"/>
+        <Caret Line="143" Column="37" TopLine="128"/>
+      </Position>
+      <Position>
+        <Filename Value="clasificadores.pas"/>
+        <Caret Line="84" Column="13" TopLine="68"/>
+      </Position>
+      <Position>
+        <Filename Value="cygnus.lpr"/>
+        <Caret Line="17" Column="18" TopLine="2"/>
+      </Position>
+      <Position>
+        <Filename Value="clasificadores.pas"/>
+        <Caret Line="109" Column="28" TopLine="100"/>
+      </Position>
+      <Position>
+        <Filename Value="clasificadores.pas"/>
+        <Caret Line="72" Column="99" TopLine="58"/>
+      </Position>
+      <Position>
+        <Filename Value="clasificadores.pas"/>
+        <Caret Line="124" Column="31" TopLine="107"/>
+      </Position>
+      <Position>
+        <Filename Value="archivos.pas"/>
+        <Caret Line="8" Column="83"/>
+      </Position>
+      <Position>
+        <Filename Value="clasificadores.pas"/>
+        <Caret Line="150" Column="20" TopLine="135"/>
+      </Position>
+      <Position>
+        <Filename Value="analizador_sintactico.pas"/>
+        <Caret Line="1041" Column="36" TopLine="1019"/>
+      </Position>
+      <Position>
+        <Filename Value="analizador_sintactico.pas"/>
+        <Caret Line="1039" Column="12" TopLine="1023"/>
+      </Position>
+      <Position>
+        <Filename Value="analizador_sintactico.pas"/>
+        <Caret Line="1038" Column="18" TopLine="1032"/>
+      </Position>
+      <Position>
+        <Filename Value="analizador_sintactico.pas"/>
+        <Caret Line="1043" Column="32" TopLine="1029"/>
+      </Position>
+    </JumpHistory>
+    <RunParams>
+      <FormatVersion Value="2"/>
+      <Modes ActiveMode=""/>
+    </RunParams>
+  </ProjectSession>
+</CONFIG>
