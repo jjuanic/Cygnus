@@ -165,7 +165,7 @@ procedure eval_asignacion (arbol:tapuntNodo; var estado: Testado);
     end
     else
     begin
-      eval_cteArreglo(arbol^.hijos.elem[1],estado, id);
+    eval_cteArreglo(arbol^.hijos.elem[1],estado, id);
     end;
     end;
     
@@ -323,7 +323,7 @@ var
 indice : byte;
     begin
     indice:=0;
-        eval_arreglo(arbol^.hijos.elem[2], estado,id,indice);
+    eval_arreglo(arbol^.hijos.elem[2], estado,id,indice);
     end;
 
 // <arreglo> ::= “cteReal” <post_arreglo>   
@@ -332,11 +332,11 @@ indice : byte;
     valor:real;
     str:string;
         begin
-            str:= StringReplace(arbol^.hijos.elem[1]^.lexema, '.', ',', [rfReplaceAll]);   
+            str:= StringReplace(arbol^.hijos.elem[1]^.lexema, '.', ',', [rfReplaceAll]);  
             valor:= StrToFloat(str);
-            //inc(indice);
+            inc(indice);
             asignarValor(id,estado,indice,valor);
-            //asignarValorUltPosicion(id,estado,valor);
+            
             eval_post_arreglo(arbol^.hijos.elem[2], estado, id,indice);
         end;
         
@@ -345,7 +345,7 @@ indice : byte;
     procedure eval_post_arreglo (arbol: tapuntNodo; var estado: TEstado; var id:string; var indice:byte);
         begin
          if arbol^.hijos.cant <> 0 then
-         eval_arreglo(arbol^.hijos.elem[1], estado,id,indice);
+         eval_arreglo(arbol^.hijos.elem[2], estado,id,indice);
         end;
 
 // <ciclo> ::= “while” <condicion> “:” “{“ <cuerpo> “}” | “for” “id” “=” <expArit> “to” <expArit> “:” “{“ <cuerpo> “}” 

@@ -307,8 +307,6 @@ Begin
   New(TAS[vpost_asignacion,tresta]);
   TAS[vpost_asignacion,tresta]^.elem[1] := vExpArit;
   TAS[vpost_asignacion,tresta]^.cant := 1;
-  
-
 
   //vExparit -> <ExpArit2> <sec_ExpArit>
   New(TAS[vExparit,tresta]);

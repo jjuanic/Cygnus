@@ -2,7 +2,7 @@ unit archivos;
 interface
 uses tipos;
 const
-  ruta='C:\Users\juan-\OneDrive\Escritorio\Facultad\Segundo\CygnusVS\codigo.cyg';
+  ruta='C:\Users\juan-\OneDrive\Escritorio\Repositorios\Cygnus\codigo.cyg';
 Procedure LeerCar (var fuente: FileOfChar; var control: Longint ; var Car:char);
 Procedure abrirArchivo(var arch: FileOfChar);
 Procedure cerrarArchivo(var arch:FileOfChar);
