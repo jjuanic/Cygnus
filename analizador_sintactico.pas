@@ -688,6 +688,13 @@ Begin
   Tas[varreglo,tctereal]^.elem[2] := vpost_arreglo;
   Tas[varreglo,tctereal]^.cant := 2;
 
+  //varreglo -> "-" tctereal <post_arreglo>
+  New(Tas[varreglo,tresta]);
+  Tas[varreglo,tresta]^.elem[1] := tresta;
+  Tas[varreglo,tresta]^.elem[2] := tctereal;
+  Tas[varreglo,tresta]^.elem[3] := vpost_arreglo;
+  Tas[varreglo,tresta]^.cant := 3;
+
   //vpost_arreglo-> "," <arreglo>
 
   New(Tas[vpost_arreglo,tcoma]);

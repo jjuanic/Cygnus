@@ -326,18 +326,30 @@ indice : byte;
     eval_arreglo(arbol^.hijos.elem[2], estado,id,indice);
     end;
 
-// <arreglo> ::= “cteReal” <post_arreglo>   
+// <arreglo> ::= “cteReal” <post_arreglo> | "-" "cteReal" <post_arreglo>
     procedure eval_arreglo(arbol: tapuntNodo; var estado: TEstado; var id:string; var indice:byte);
     var
     valor:real;
     str:string;
         begin
+        if arbol^.Hijos.elem[1]^.Simbolo = tctereal then
+          begin
             str:= StringReplace(arbol^.hijos.elem[1]^.lexema, '.', ',', [rfReplaceAll]);  
             valor:= StrToFloat(str);
             inc(indice);
             asignarValor(id,estado,indice,valor);
             
             eval_post_arreglo(arbol^.hijos.elem[2], estado, id,indice);
+            end
+            else
+            begin
+            str:= StringReplace(arbol^.hijos.elem[2]^.lexema, '.', ',', [rfReplaceAll]);  
+            valor:= -1 * StrToFloat(str);
+            inc(indice);
+            asignarValor(id,estado,indice,valor);
+            
+            eval_post_arreglo(arbol^.hijos.elem[3], estado, id,indice);
+            end;
         end;
         
 

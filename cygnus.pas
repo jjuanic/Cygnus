@@ -31,7 +31,7 @@ begin
 analizadorpredictivo(ruta,arbol,error);
 if not error then 
 begin
-  guardarArbol('C:\Users\juan-\OneDrive\Escritorio\Repositorios\Cygnus\arbol.cyg',arbol);
+  guardarArbol('C:\Users\juan-\OneDrive\Escritorio\Facultad\Segundo\CygnusGIT\Cygnus\arbol.cyg',arbol);
   eval_programa(arbol,estado);
 end;
 

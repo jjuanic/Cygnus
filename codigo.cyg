@@ -1,28 +1,14 @@
 program distanciaEuclidiana 
     var
-    vector1 = array[2];
-    vector2 = array[2];
+    vector1 = array[5];
+    vector2 = array[5];
     punto = real;
     resultado = real;
     sum = real;
     i = real;
     body {
-        sysOut("Ingrese primer vector");
-        for i = 1 to 2 : {
-            sysOut("Coordenada: ", i);
-            sysGet("Ingrese punto: " , punto);
-            vector1[i] = punto;
+        vector1 = [1,2,-6,4,5];
+        for i = 1 to 5 : {
+        sysOut(vector1[i]);
         }
-        sysOut("Ingrese segundo vector");
-        for i = 1 to 2 : {
-            sysOut("Coordenada: ", i);
-            sysGet("Ingrese punto: " , punto);
-            vector2[i] = punto;
-        }
-        sum = 0;
-        for i = 1 to 2 : {
-            sum = sum + (vector1[i] - vector2[i])^2;
-        }
-        resultado = 2 root sum;
-        sysOut("El resultado es: ", resultado);
-    }
+}
