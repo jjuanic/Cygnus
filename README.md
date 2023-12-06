@@ -1,12 +1,12 @@
 # Cygnus
 Cygnus es un interprete hecho en pascal para un lenguaje de programación con características específicas. Tiene un analizador léxico, un analizador semántico y un analizador sintáctico
 
-Estructura general
+## Estructura general
 
 Un programa consiste de una secuencia de sentencias, la cual comienza por un program id, donde id es el nombre del programa.
 Luego de declarar la id, declararemos las variables necesarias para utilizar en el programa, para posteriormente comenzar con el cuerpo del programa. Esto lo hacemos mediante la palabra reservada body seguida de {}, que delimitan el contenido del cuerpo del programa.
 
-Tipos de sentencia
+## Tipos de sentencia
 
 Declaración: Para declarar una variable previo al cuerpo del programa, utilizamos la palabra reservada var, para posteriormente declarar las variables de la forma id = real; en caso de querer declarar un número, o id = array[n]; en caso de querer declarar un vector siendo n un número real transformado mediante la funcion techo a un número entero
 
