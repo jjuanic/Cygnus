@@ -25,7 +25,7 @@ Ej:
             max = num;
  }}
 
-Expresiones aritméticas y lógicas
+## Expresiones aritméticas, lógicas y relacionales
 
 Expresiones lógicas: Las expresiones lógicas son and (y), or (o) y not (negación).
 
