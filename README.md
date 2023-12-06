@@ -1,4 +1,4 @@
-# Cygnus
+# Cygnus 🦢
 Cygnus es un interprete hecho en pascal para un lenguaje de programación con características específicas. Tiene un analizador léxico, un analizador semántico y un analizador sintáctico
 
 ## Estructura general
